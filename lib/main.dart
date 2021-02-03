@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/Getstarted.dart';
+import 'EntiryPoint/Getstarted.dart';
 import 'Helpers/constant.dart';
 import 'pages/Tips.dart';
 import 'package:splashscreen/splashscreen.dart';

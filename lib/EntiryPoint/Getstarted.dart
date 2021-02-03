@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../pages/Tips.dart';
 import '../Helpers/constant.dart';
 
 class GetStarted extends StatelessWidget {
@@ -40,7 +41,15 @@ class GetStarted extends StatelessWidget {
                       Text('Happy Meals'),
                       Text(
                           'Discover the best foods from\n Over 1.000 restaurant'),
-                      RaisedButton(child: Text('Click Here'),onPressed: (){})
+                      Container(
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(15)),
+                          child: RaisedButton(
+                              child: Text('Click Here'),
+                              onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Tips()))))
                     ],
                   )
                 ],
