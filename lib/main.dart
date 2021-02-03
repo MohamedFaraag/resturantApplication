@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurantapplication/pages/Home.dart';
 import 'EntiryPoint/Getstarted.dart';
 import 'Helpers/constant.dart';
 import 'pages/Tips.dart';
@@ -28,7 +29,7 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return SplashScreen(
         seconds: 3,
-        navigateAfterSeconds: new GetStarted(),
+        navigateAfterSeconds: new Home(),
         title: new Text(
           'مرحبا بكم فى تطبيق مطعمنا ',
           style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
