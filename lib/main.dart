@@ -31,7 +31,7 @@ class _SplashState extends State<Splash> {
         seconds: 3,
         navigateAfterSeconds: new Home(),
         title: new Text(
-          'مرحبا بكم فى تطبيق مطعمناsdasd ',
+          'مرحبا بكم فى تطبيق مطعمنا ',
           style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
         ),
         image: new Image.network('https://i.imgur.com/TyCSG9A.png'),
